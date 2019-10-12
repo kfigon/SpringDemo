@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/out/foobar"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\n  \"name\": \"some name\",\n  \"value\": 123\n}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
